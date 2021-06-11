@@ -1,0 +1,47 @@
+.strp-banner {
+	position: relative;
+	z-index: 10;
+	display: block;
+	width: 100vw;
+	left: calc((100% - 100vw)/2);
+	height: auto;
+}
+
+.strp-banner .nx-banner-img {
+	display: block;
+    margin: 10px 0 40px;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.strp-banner .nx-banner-link {
+	position: absolute;
+	z-index: 1000;
+	top:0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	overflow: hidden;
+	text-indent: -2000px;
+}
+
+.strp-banner-mark-palce {
+	display: block;
+	background: red;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	font-size: 26px;
+	min-height: auto;
+	line-height: 150px;
+	min-height: 150px;
+}
+
+@media only screen and (max-width: 700px) {
+	.strp-banner-mark-palce {
+	   min-height: auto;
+	   line-height: inherit;
+	}
+}
